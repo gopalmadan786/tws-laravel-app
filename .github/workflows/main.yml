@@ -31,3 +31,5 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             sudo systemctl restart apache2
+            cd home
+            sudo mv * /var/www/devenv/env-dev
