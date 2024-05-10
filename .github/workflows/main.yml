@@ -32,4 +32,4 @@ jobs:
           script: |
             sudo systemctl restart apache2
             cd home
-            sudo mv * /var/www/devenv/env-dev
+            sudo mv * /var/www/devenv
